@@ -1,0 +1,27 @@
+* {
+  text-align: center;
+  margin:10px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url("pattern004.png");
+
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(141, 4, 4, 0.404);
+  padding: 10rem;
+  border-radius: 5rem;
+}
+.container input {
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+}
